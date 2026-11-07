@@ -35,4 +35,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           cp KriptoBotAndroid/app/build/outputs/apk/debug/app-debug.apk KriptoBot.apk
-          gh release create "apk-${{ github.run_number }}" KriptoBot.apk --title "Kripto Bot APK #${{ github.run_number }}" --notes "Telefondan bu sayfadaki KriptoBot.apk dosyasına dokunup indirin ve yükleyin.
+          gh release create "apk-${{ github.run_number }}" KriptoBot.apk --title "Kripto Bot APK #${{ github.run_number }}" --notes "Telefondan bu sayfadaki KriptoBot.apk dosyasına dokunup indirin ve yükleyin."
